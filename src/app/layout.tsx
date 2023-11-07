@@ -1,4 +1,9 @@
-import { cinzel, openSans } from '@/components/ui/fonts/fonts'
+import {
+    cinzel,
+    notoSans,
+    notoSerfi,
+    openSans,
+} from '@/components/ui/fonts/fonts'
 import Header from '@/components/ui/layout/header/header'
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
@@ -15,7 +20,7 @@ export default function RootLayout({
     return (
         <html
             lang="pt-br"
-            className={`${cinzel.variable} ${openSans.variable} `}
+            className={`${cinzel.variable} ${openSans.variable} ${notoSerfi.variable} ${notoSans.variable}`}
         >
             <body className="font-openSans">
                 <Header />
