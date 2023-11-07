@@ -31,6 +31,8 @@ module.exports = {
             fontFamily: {
                 cinzel: 'var(--font-cinzel)',
                 openSans: 'var(--font-open-sans)',
+                notoSerif: 'var(--font-notoSerif)',
+                notoSans: 'var(--font-notoSans)',
             },
             colors: {
                 border: 'hsl(var(--border))',
@@ -81,10 +83,22 @@ module.exports = {
                     from: { height: 'var(--radix-accordion-content-height)' },
                     to: { height: 0 },
                 },
+                cursor: {
+                    '50%': {
+                        borderColor: 'transparent',
+                    },
+                },
+                typing: {
+                    from: {
+                        width: 0,
+                    },
+                },
             },
             animation: {
                 'accordion-down': 'accordion-down 0.2s ease-out',
                 'accordion-up': 'accordion-up 0.2s ease-out',
+                'typewriter-typing':
+                    'typing 3s steps(18), cursor 0.8s step-end infinite alternate',
             },
         },
     },
