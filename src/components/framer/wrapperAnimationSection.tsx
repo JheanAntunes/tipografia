@@ -22,7 +22,7 @@ function WrapperAnimationSection({
         offset: ['0 1', '1.33 1'],
     })
 
-    const opacity = useTransform(scrollYProgress, [0, 1], [0.5, 1])
+    const opacity = useTransform(scrollYProgress, [0, 1], [0.8, 1])
     const framerVariants = animateSection(direction)
     return (
         <motion.div
