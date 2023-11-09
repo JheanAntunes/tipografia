@@ -30,9 +30,11 @@ module.exports = {
             },
             fontFamily: {
                 cinzel: 'var(--font-cinzel)',
-                openSans: 'var(--font-open-sans)',
+                openSans: 'var(--font-openSans)',
                 notoSerif: 'var(--font-notoSerif)',
                 notoSans: 'var(--font-notoSans)',
+                robotoSans: 'var(--font-robotoSans)',
+                robotoSerif: 'var(--font-robotoSerif)',
             },
             colors: {
                 border: 'hsl(var(--border))',
