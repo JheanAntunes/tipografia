@@ -21,7 +21,13 @@ export function TypographyH2({
     ...props
 }: React.ComponentProps<'h2'>) {
     return (
-        <h2 className={cn('font-medium text-slate-950', className)} {...props}>
+        <h2
+            className={cn(
+                'text-2xl font-medium text-slate-950 @lg:text-5xl @2xl:text-4xl',
+                className
+            )}
+            {...props}
+        >
             {children}
         </h2>
     )
@@ -33,7 +39,13 @@ export function TypographyP({
     ...props
 }: React.ComponentProps<'p'>) {
     return (
-        <p className={cn('font-openSans text-slate-800', className)} {...props}>
+        <p
+            className={cn(
+                'font-openSans text-lg text-slate-800 @3xl:text-xl',
+                className
+            )}
+            {...props}
+        >
             {children}
         </p>
     )
