@@ -6,7 +6,7 @@ import NavSeparador from '../navSeparador'
 import MenuConteudo, { MenuProps } from './MenuConteudo'
 import MenuFundo from './menuFundo'
 
-function MenuMobile({ children, variant, className }: MenuProps) {
+function MenuMobile({ children, variant, className, direction }: MenuProps) {
     const { toggle, setToggle } = useToggle()
 
     const handleClickToCloseMenu = (
@@ -28,7 +28,7 @@ function MenuMobile({ children, variant, className }: MenuProps) {
     return (
         <>
             <Button
-                className="font-cinzel uppercase bg-transparent hover:bg-transparent text-slate-950 text-xl @4xl:hidden"
+                className="bg-transparent font-cinzel text-xl uppercase text-slate-950 hover:bg-transparent @4xl:hidden"
                 onClick={() => {
                     setToggle(!toggle)
                 }}
@@ -44,9 +44,10 @@ function MenuMobile({ children, variant, className }: MenuProps) {
                             variant={variant}
                             className={className}
                             onClick={handleClickMenuContentLink}
+                            direction={direction}
                         >
                             <Button
-                                className="font-cinzel uppercase bg-transparent hover:bg-transparent text-slate-950 text-xl @4xl:hidden"
+                                className="bg-transparent font-cinzel text-xl uppercase text-slate-950 hover:bg-transparent @4xl:hidden"
                                 onClick={() => {
                                     setToggle(false)
                                 }}
@@ -55,7 +56,7 @@ function MenuMobile({ children, variant, className }: MenuProps) {
                             >
                                 Fechar
                             </Button>
-                            <NavSeparador className="w-full h-[1px]" />
+                            <NavSeparador className="h-[1px] w-full" />
                             {children}
                         </MenuConteudo>
                     </MenuFundo>

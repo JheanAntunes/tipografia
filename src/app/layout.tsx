@@ -3,8 +3,10 @@ import {
     notoSans,
     notoSerfi,
     openSans,
-} from '@/components/ui/fonts/fonts'
-import Header from '@/components/ui/layout/header/header'
+    robotoSans,
+    robotoSerif,
+} from '@/components/fonts/fonts'
+import Header from '@/components/layout/header/header'
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
 export const metadata: Metadata = {
@@ -20,9 +22,9 @@ export default function RootLayout({
     return (
         <html
             lang="pt-br"
-            className={`${cinzel.variable} ${openSans.variable} ${notoSerfi.variable} ${notoSans.variable}`}
+            className={`${cinzel.variable} ${openSans.variable} ${notoSerfi.variable} ${notoSans.variable} ${robotoSans.variable} ${robotoSerif.variable}`}
         >
-            <body className="font-openSans">
+            <body className="font-openSans antialiased">
                 <Header />
                 {children}
             </body>

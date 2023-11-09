@@ -1,4 +1,4 @@
-import { TypographyH1, TypographyP } from '../../tipografia/tipografia'
+import { TypographyH1, TypographyP } from '@/components/tipografia/tipografia'
 import QualFonte from '../QualFonte'
 
 function SectionInitial() {
