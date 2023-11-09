@@ -20,14 +20,14 @@ function Section_O_Que_Tipografia() {
                 <QualFonte className="font-robotoSerif">
                     Familia Roboto
                 </QualFonte>
-                <TypographyH2 className="font-robotoSerif text-2xl @lg:text-5xl @2xl:text-4xl">
+                <TypographyH2 className="font-robotoSerif">
                     O que é Tipografia ?
                 </TypographyH2>
                 <TypographyP className="font-robotoSans border-l-2 border-l-slate-600 pl-1 text-sm text-slate-600 @2xl:text-base">
                     Tipografia é, na verdade, a impressão dos tipos, sendo que
                     tipo é a fonte, ou a letra.
                 </TypographyP>
-                <TypographyP className="font-robotoSans text-lg @3xl:text-xl">
+                <TypographyP className="font-robotoSans">
                     Antigamente, os tipógrafos usavam as letras em moldes de
                     ferro, por exemplo, para imprimir as palavras. Com o
                     processo, era natural que o papel acabasse com uma textura,
