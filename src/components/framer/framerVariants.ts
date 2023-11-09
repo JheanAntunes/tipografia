@@ -5,6 +5,7 @@ export const menuVariants = cva('', {
         variant: {
             right: 'border-l border-solid border-slate-950 h-full',
             left: 'border-r border-solid border-slate-950 h-full',
+            none: '',
         },
     },
     defaultVariants: {
