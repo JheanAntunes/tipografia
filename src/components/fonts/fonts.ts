@@ -1,5 +1,7 @@
 import {
     Cinzel,
+    IBM_Plex_Sans,
+    IBM_Plex_Serif,
     Noto_Sans,
     Noto_Serif,
     Open_Sans,
@@ -38,4 +40,16 @@ export const robotoSerif = Roboto_Serif({
     subsets: ['latin'],
     weight: ['500'],
     variable: '--font-robotoSerif',
+})
+
+export const ibm_Plex_Sans = IBM_Plex_Sans({
+    subsets: ['latin'],
+    weight: ['400'],
+    variable: '--font-ibmPlexSans',
+})
+
+export const ibm_Plex_Serif = IBM_Plex_Serif({
+    subsets: ['latin'],
+    weight: ['500'],
+    variable: '--font-ibmPlexSerif',
 })

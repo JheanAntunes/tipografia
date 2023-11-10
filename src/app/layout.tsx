@@ -1,5 +1,7 @@
 import {
     cinzel,
+    ibm_Plex_Sans,
+    ibm_Plex_Serif,
     notoSans,
     notoSerfi,
     openSans,
@@ -22,7 +24,7 @@ export default function RootLayout({
     return (
         <html
             lang="pt-br"
-            className={`${cinzel.variable} ${openSans.variable} ${notoSerfi.variable} ${notoSans.variable} ${robotoSans.variable} ${robotoSerif.variable}`}
+            className={`${cinzel.variable} ${openSans.variable} ${notoSerfi.variable} ${notoSans.variable} ${robotoSans.variable} ${robotoSerif.variable} ${ibm_Plex_Sans.variable} ${ibm_Plex_Serif.variable}`}
         >
             <body className="font-openSans antialiased">
                 <Header />
