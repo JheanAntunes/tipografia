@@ -1,4 +1,4 @@
-import WrapperAnimationSection from '@/components/framer/wrapperAnimationSection'
+import WrapperAnimation from '@/components/framer/wrapperAnimation'
 import { MenuProps } from '@/components/layout/header/nav/menuMobile/MenuConteudo'
 import { cn } from '@/lib/utils'
 
@@ -9,7 +9,7 @@ function AnimateContent({
 }: MenuProps) {
     return (
         <>
-            <WrapperAnimationSection
+            <WrapperAnimation
                 variant="none"
                 direction={direction}
                 className={cn(
@@ -19,7 +19,7 @@ function AnimateContent({
                 )}
             >
                 {children}
-            </WrapperAnimationSection>
+            </WrapperAnimation>
         </>
     )
 }
