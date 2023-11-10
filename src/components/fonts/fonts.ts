@@ -2,6 +2,8 @@ import {
     Cinzel,
     IBM_Plex_Sans,
     IBM_Plex_Serif,
+    Merriweather,
+    Merriweather_Sans,
     Noto_Sans,
     Noto_Serif,
     Open_Sans,
@@ -52,4 +54,16 @@ export const ibm_Plex_Serif = IBM_Plex_Serif({
     subsets: ['latin'],
     weight: ['500'],
     variable: '--font-ibmPlexSerif',
+})
+
+export const merriweatherSans = Merriweather_Sans({
+    subsets: ['latin'],
+    weight: ['400'],
+    variable: '--font-merriweatherSans',
+})
+
+export const merriweatherSerif = Merriweather({
+    subsets: ['latin'],
+    weight: ['700'],
+    variable: '--font-merriweatherSerif',
 })
