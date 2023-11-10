@@ -1,5 +1,18 @@
 import { cva } from 'class-variance-authority'
 
+export const variantY = {
+    animateInitialY: {
+        opacity: 0,
+        y: '100%',
+        transition: { duration: 1 },
+    },
+    animateY: {
+        opacity: 1,
+        y: '0',
+        transition: { duration: 1, delay: 0.3 },
+    },
+}
+
 export const menuVariants = cva('', {
     variants: {
         variant: {
@@ -13,7 +26,7 @@ export const menuVariants = cva('', {
     },
 })
 
-export const animateSection = (direction: 'right' | 'left') => {
+export const animateX = (direction: 'right' | 'left') => {
     return {
         closed: {
             opacity: 0,
@@ -23,7 +36,7 @@ export const animateSection = (direction: 'right' | 'left') => {
         open: {
             x: 0,
             opacity: 1,
-            transition: { duration: 1 },
+            transition: { duration: 1, delay: 0.3 },
         },
     }
 }

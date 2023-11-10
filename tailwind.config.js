@@ -37,6 +37,8 @@ module.exports = {
                 robotoSerif: 'var(--font-robotoSerif)',
                 ibmSans: 'var(--font-ibmPlexSans)',
                 ibmSerif: 'var(--font-ibmPlexSerif)',
+                merriweatherSans: 'var(--font-merriweatherSans)',
+                merriweatherSerif: 'var(--font-merriweatherSerif)',
             },
             colors: {
                 border: 'hsl(var(--border))',

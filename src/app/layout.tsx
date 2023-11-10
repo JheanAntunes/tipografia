@@ -2,6 +2,8 @@ import {
     cinzel,
     ibm_Plex_Sans,
     ibm_Plex_Serif,
+    merriweatherSans,
+    merriweatherSerif,
     notoSans,
     notoSerfi,
     openSans,
@@ -24,7 +26,7 @@ export default function RootLayout({
     return (
         <html
             lang="pt-br"
-            className={`${cinzel.variable} ${openSans.variable} ${notoSerfi.variable} ${notoSans.variable} ${robotoSans.variable} ${robotoSerif.variable} ${ibm_Plex_Sans.variable} ${ibm_Plex_Serif.variable}`}
+            className={`${cinzel.variable} ${openSans.variable} ${notoSerfi.variable} ${notoSans.variable} ${robotoSans.variable} ${robotoSerif.variable} ${ibm_Plex_Sans.variable} ${ibm_Plex_Serif.variable} ${merriweatherSerif.variable} ${merriweatherSans.variable}`}
         >
             <body className="font-openSans antialiased">
                 <Header />

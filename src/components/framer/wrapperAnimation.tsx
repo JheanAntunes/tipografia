@@ -3,14 +3,14 @@ import { cn } from '@/lib/utils'
 import { VariantProps } from 'class-variance-authority'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { useRef } from 'react'
-import { animateSection, menuVariants } from './framerVariants'
+import { animateX, menuVariants } from './framerVariants'
 
 type WrapperAnimationSectionProps = React.ComponentProps<'div'> &
     VariantProps<typeof menuVariants> & {
         direction?: 'right' | 'left'
     }
 
-function WrapperAnimationSection({
+function WrapperAnimation({
     children,
     className,
     variant,
@@ -23,7 +23,7 @@ function WrapperAnimationSection({
     })
 
     const opacity = useTransform(scrollYProgress, [0, 1], [0.9, 1])
-    const framerVariants = animateSection(direction)
+    const framerVariants = animateX(direction)
     return (
         <motion.div
             style={{ opacity }}
@@ -38,4 +38,4 @@ function WrapperAnimationSection({
     )
 }
 
-export default WrapperAnimationSection
+export default WrapperAnimation

@@ -1,8 +1,5 @@
 'use client'
-import {
-    animateSection,
-    menuVariants,
-} from '@/components/framer/framerVariants'
+import { animateX, menuVariants } from '@/components/framer/framerVariants'
 import { cn } from '@/lib/utils'
 import { VariantProps } from 'class-variance-authority'
 import { motion } from 'framer-motion'
@@ -22,7 +19,7 @@ const MenuConteudoRef = forwardRef<HTMLDivElement, MenuProps>(
     ) => {
         return (
             <motion.div
-                variants={animateSection(direction)}
+                variants={animateX(direction)}
                 initial="closed"
                 animate="open"
                 exit="closed"
