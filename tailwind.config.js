@@ -35,6 +35,8 @@ module.exports = {
                 notoSans: 'var(--font-notoSans)',
                 robotoSans: 'var(--font-robotoSans)',
                 robotoSerif: 'var(--font-robotoSerif)',
+                ibmSans: 'var(--font-ibmPlexSans)',
+                ibmSerif: 'var(--font-ibmPlexSerif)',
             },
             colors: {
                 border: 'hsl(var(--border))',
