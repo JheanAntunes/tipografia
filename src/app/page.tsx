@@ -1,4 +1,5 @@
 import SectionInitial from '@/components/ui/home/main/sectionInitial'
+import Section_Tipos from '@/components/ui/home/main/section_Fontes_Tipos/section_tipos'
 import Section_Font_Letras from '@/components/ui/home/main/section_font_letras'
 import Section_History from '@/components/ui/home/main/section_history'
 import Section_O_Que_Tipografia from '@/components/ui/home/main/section_o_que_tipografia'
@@ -13,6 +14,7 @@ export default function Home() {
                 <Section_History />
                 <SectionTipografiaModerna />
                 <Section_Font_Letras />
+                <Section_Tipos />
             </div>
         </main>
     )
