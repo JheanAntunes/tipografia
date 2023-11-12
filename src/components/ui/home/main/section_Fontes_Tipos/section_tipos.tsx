@@ -9,7 +9,10 @@ import Sub_Section_Tipos_Fontes from './sub_section_tipos_fontes'
 
 function Section_Tipos() {
     return (
-        <section className="layoutResponsivo @5xl:containerGrid overflow-hidden">
+        <section
+            id="#fontes"
+            className="layoutResponsivo @5xl:containerGrid overflow-hidden"
+        >
             <Sub_Section_Tipos_Fontes />
             <Sub_Section_Font_Serif />
             <Sub_Section_Font_Sans_Serif />

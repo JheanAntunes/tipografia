@@ -4,7 +4,7 @@ import QualFonte from '../QualFonte'
 
 function Section_Font_Letras() {
     return (
-        <section className="layoutResponsivo mt-5 overflow-hidden">
+        <section id="#letras" className="layoutResponsivo mt-5 overflow-hidden">
             <AnimateY className="flex flex-col gap-5 border-b-4 border-solid border-b-slate-950 pb-5 text-center">
                 <QualFonte className="font-merriweatherSerif">
                     Familia Merriweather Sans & serif

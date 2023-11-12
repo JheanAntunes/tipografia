@@ -9,7 +9,10 @@ import ContainerParagrafos from './section_Fontes_Tipos/containerParagrafos'
 
 function Section_History() {
     return (
-        <section className="layoutResponsivo flex flex-col gap-5 overflow-hidden">
+        <section
+            id="#historia"
+            className="layoutResponsivo flex flex-col gap-5 overflow-hidden"
+        >
             <div className="flex flex-col items-center gap-5">
                 <QualFonte className="block text-center">
                     Fonte Poppins & Opens Sans

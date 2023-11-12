@@ -6,10 +6,12 @@ function AnimateContent({
     direction = 'left',
     children,
     className,
+    id,
 }: MenuProps) {
     return (
         <>
             <WrapperAnimation
+                id={id}
                 variant="none"
                 direction={direction}
                 className={cn(

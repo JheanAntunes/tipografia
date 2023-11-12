@@ -1,5 +1,5 @@
 import MenuMobile from './menuMobile/MenuMobile'
-import NavLinks from './menuMobile/NavLinks'
+import NavLinks from './NavLinks'
 import NavSeparador from './navSeparador'
 function Nav() {
     return (

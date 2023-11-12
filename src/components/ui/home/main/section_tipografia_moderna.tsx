@@ -7,7 +7,7 @@ import ContainerParagrafos from './section_Fontes_Tipos/containerParagrafos'
 
 function SectionTipografiaModerna() {
     return (
-        <section className="layoutResponsivo overflow-hidden">
+        <section id="#moderna" className="layoutResponsivo overflow-hidden">
             <ContainerContent className="grid-cols-1 @4xl:grid-cols-2 @5xl:grid-cols-[1fr_4px_1fr]">
                 <AnimateContent
                     direction="left"
