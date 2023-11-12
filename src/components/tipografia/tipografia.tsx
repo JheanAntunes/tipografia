@@ -68,3 +68,25 @@ export function TypographyP({
         </p>
     )
 }
+
+export function TypographyList({
+    children,
+    className,
+}: React.ComponentProps<'ul'>) {
+    return (
+        <ul className={cn('my-5 ml-5 list-disc [&>li]:mt-2', className)}>
+            {children}
+        </ul>
+    )
+}
+
+export function TypographySmall({
+    children,
+    className,
+}: React.ComponentProps<'span'>) {
+    return (
+        <small className={cn('text-sm font-medium leading-none', className)}>
+            {children}
+        </small>
+    )
+}
