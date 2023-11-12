@@ -10,6 +10,7 @@ import {
     robotoSans,
     robotoSerif,
 } from '@/components/fonts/fonts'
+import Footer from '@/components/layout/footer/footer'
 import Header from '@/components/layout/header/header'
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
@@ -31,6 +32,7 @@ export default function RootLayout({
             <body className="font-openSans antialiased">
                 <Header />
                 {children}
+                <Footer />
             </body>
         </html>
     )
