@@ -1,19 +1,21 @@
+'use client'
 import { cn } from '@/lib/utils'
+import { moveLeitorSection } from '@/utils/moveleitorSection'
 import Link from 'next/link'
 import React from 'react'
 
-function NavLink({
-    className,
-    children,
-    href = '#',
-}: React.ComponentProps<'a'>) {
+function NavLink({ className, children, href }: React.ComponentProps<'a'>) {
     return (
         <Link
-            href={href}
+            href={href!}
             className={cn(
-                'text-xl uppercase font-cinzel text-slate-950 transition-colors block @5xl:inline-block @5xl:hover:underline',
+                'block font-cinzel text-xl uppercase text-slate-950 transition-colors @5xl:inline-block @5xl:hover:underline',
                 className
             )}
+            onClick={() => {
+                moveLeitorSection(href!)
+            }}
+            scroll={false}
         >
             {children}
         </Link>
