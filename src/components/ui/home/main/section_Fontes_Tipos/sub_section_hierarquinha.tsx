@@ -4,8 +4,15 @@ import ContainerParagrafos from './containerParagrafos'
 
 function Sub_Section_Hierarquinha() {
     return (
-        <AnimateContent className="hierarquinha mt-5" direction="right">
-            <section className="flex flex-col gap-5 @5xl:gap-2 @7xl:gap-5">
+        <AnimateContent
+            id="#hierarquinha"
+            className="hierarquinha mt-5"
+            direction="right"
+        >
+            <section
+                className="flex flex-col gap-5 @5xl:gap-2 @7xl:gap-5"
+                id="#hierarquinha"
+            >
                 <TypographyH3 className="font-ibmSerif @5xl:text-3xl">
                     Hierarquia: Guiando os Olhos do Usuário
                 </TypographyH3>
