@@ -36,6 +36,15 @@ function Footer() {
                     <li>A Opção de Combinar Fontes Pode Ser Interessante</li>
                 </TypographyList>
             </div>
+            <Link
+                href="https://www.flaticon.com/br/icones-gratis/alfabeto"
+                title="alfabeto ícones"
+                className="text-blue-500 underline"
+                target="_blank"
+                referrerPolicy="no-referrer"
+            >
+                Alfabeto ícones criados por Freepik - Flaticon
+            </Link>
         </footer>
     )
 }
