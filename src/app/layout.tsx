@@ -12,6 +12,7 @@ import {
 } from '@/components/fonts/fonts'
 import Footer from '@/components/layout/footer/footer'
 import Header from '@/components/layout/header/header'
+import Pogress from '@/components/ui/home/pogress'
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
 export const metadata: Metadata = {
@@ -30,6 +31,7 @@ export default function RootLayout({
             className={`${cinzel.variable} ${openSans.variable} ${notoSerfi.variable} ${notoSans.variable} ${robotoSans.variable} ${robotoSerif.variable} ${ibm_Plex_Sans.variable} ${ibm_Plex_Serif.variable} ${merriweatherSerif.variable} ${merriweatherSans.variable}`}
         >
             <body className="font-openSans antialiased">
+                <Pogress />
                 <Header />
                 {children}
                 <Footer />
