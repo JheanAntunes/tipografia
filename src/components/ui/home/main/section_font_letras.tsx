@@ -12,7 +12,7 @@ function Section_Font_Letras() {
                 <TypographyH2 className="font-merriweatherSerif">
                     Qual a diferença entre letras e fontes
                 </TypographyH2>
-                <TypographyP className="font-merriweatherSans mx-auto max-w-3xl">
+                <TypographyP className="mx-auto max-w-3xl text-left font-merriweatherSans @lg:text-center">
                     o tipo de letra é uma coleção de caracteres tipográficos
                     criados com o mesmo desenho, formato ou atributo, como
                     Arial, Helvetica e Times New Roman. Já o tipo de fonte é um
