@@ -1,22 +1,18 @@
 export const dataLink = [
     {
-        href: '#',
+        href: '#historia',
         text: 'Historia',
     },
     {
-        href: '#',
+        href: '#moderna',
         text: 'Tipografia Moderna',
     },
     {
-        href: '#',
+        href: '#letras',
         text: 'Letras & Fontes',
     },
     {
-        href: '#',
+        href: '#fontes',
         text: 'Tipos de Fontes',
-    },
-    {
-        href: '#',
-        text: 'Hierarquinha',
     },
 ]
