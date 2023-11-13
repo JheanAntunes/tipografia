@@ -13,6 +13,7 @@ import {
 import WrapperProgress_ScrollUp from '@/components/framer/wrapperPogress_Scroll_Up'
 import Footer from '@/components/layout/footer/footer'
 import Header from '@/components/layout/header/header'
+import { ThemeProvider } from '@/components/ui/theme-provider'
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
 export const metadata: Metadata = {
@@ -30,12 +31,20 @@ export default function RootLayout({
             lang="pt-br"
             className={`${cinzel.variable} ${openSans.variable} ${notoSerfi.variable} ${notoSans.variable} ${robotoSans.variable} ${robotoSerif.variable} ${ibm_Plex_Sans.variable} ${ibm_Plex_Serif.variable} ${merriweatherSerif.variable} ${merriweatherSans.variable} 
             !scroll-smooth`}
+            suppressHydrationWarning
         >
             <body className="font-openSans antialiased">
-                <WrapperProgress_ScrollUp />
-                <Header />
-                {children}
-                <Footer />
+                <ThemeProvider
+                    attribute="class"
+                    defaultTheme="system"
+                    enableSystem
+                    disableTransitionOnChange
+                >
+                    <WrapperProgress_ScrollUp />
+                    <Header />
+                    {children}
+                    <Footer />
+                </ThemeProvider>
             </body>
         </html>
     )
