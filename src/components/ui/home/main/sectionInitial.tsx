@@ -8,7 +8,7 @@ function SectionInitial() {
                 <QualFonte className="justify-self-start font-notoSerif">
                     Familia noto sans & serif
                 </QualFonte>
-                <TypographyH1 className="border-r-solid w-full animate-typewriter-typing overflow-hidden whitespace-nowrap border-r-4 border-r-slate-950 font-notoSerif text-5xl leading-normal transition-colors @sm:text-6xl @sm:leading-normal @xl:text-8xl @xl:leading-normal @3xl:border-r-8 @3xl:text-9xl @3xl:leading-relaxed">
+                <TypographyH1 className="border-r-solid w-full animate-typewriter-typing overflow-hidden whitespace-nowrap border-r-4 border-r-slate-950 font-notoSerif text-5xl leading-normal transition-colors dark:border-r-slate-50 @sm:text-6xl @sm:leading-normal @xl:text-8xl @xl:leading-normal @3xl:border-r-8 @3xl:text-9xl @3xl:leading-relaxed">
                     Typography
                 </TypographyH1>
             </div>
