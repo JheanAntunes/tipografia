@@ -10,9 +10,9 @@ import {
     robotoSans,
     robotoSerif,
 } from '@/components/fonts/fonts'
+import WrapperProgress_ScrollUp from '@/components/framer/wrapperPogress_Scroll_Up'
 import Footer from '@/components/layout/footer/footer'
 import Header from '@/components/layout/header/header'
-import Pogress from '@/components/ui/home/pogress'
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
 export const metadata: Metadata = {
@@ -32,7 +32,7 @@ export default function RootLayout({
             !scroll-smooth`}
         >
             <body className="font-openSans antialiased">
-                <Pogress />
+                <WrapperProgress_ScrollUp />
                 <Header />
                 {children}
                 <Footer />

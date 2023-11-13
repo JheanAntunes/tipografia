@@ -89,6 +89,14 @@ module.exports = {
                     from: { height: 'var(--radix-accordion-content-height)' },
                     to: { height: 0 },
                 },
+                'scroll-up': {
+                    from: {
+                        transform: 'translateX(0px)',
+                    },
+                    to: {
+                        transform: 'translateX(2px)',
+                    },
+                },
                 cursor: {
                     '50%': {
                         borderColor: 'transparent',
@@ -105,6 +113,7 @@ module.exports = {
                 'accordion-up': 'accordion-up 0.2s ease-out',
                 'typewriter-typing':
                     'typing 3s steps(18), cursor 0.8s step-end infinite alternate',
+                'scroll-arrow-up': 'scroll-up 0.7s infinite alternate',
             },
         },
     },
