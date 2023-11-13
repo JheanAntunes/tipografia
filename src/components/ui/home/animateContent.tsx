@@ -15,7 +15,7 @@ function AnimateContent({
                 variant="none"
                 direction={direction}
                 className={cn(
-                    'border-b-4 border-solid border-b-slate-950 pb-5',
+                    'border-b-4 border-solid border-b-slate-950 pb-5 dark:border-b-slate-50',
                     direction === 'left' ? '@5xl:pr-4' : '@5xl:pl-4',
                     className
                 )}
