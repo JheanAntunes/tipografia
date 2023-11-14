@@ -12,11 +12,12 @@ function Sub_Section_Font_Serif() {
                     A fonte serifada é aquela que tem pequenos traços e
                     prolongamentos nas extremidades da fonte.
                 </TypographyP>
-                <div className="relative h-28 overflow-hidden">
+                <div className="relative h-28 overflow-hidden rounded-xl dark:bg-slate-50">
                     <Image
                         src={ImgSerif}
                         alt="Imagem de exemplo para tipo de fonte serifada"
                         fill
+                        sizes="100vw"
                         className="object-contain"
                     />
                 </div>
