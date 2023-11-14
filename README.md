@@ -21,8 +21,6 @@ Por que você utilizou mais de 3 fontes??? Porque estou praticando next/font com
    - variants
    - AnimatePresense para componentes com desmontagem
  - Shadcn-ui & thema
-	 - ThemaDark
-	 - Button 
  - Framer para fazer o wireframe do projeto.
 > 
 > Por que Framer ??? Porque queria experimentar os recursos interessantes como animações, hover, Inteligência artificial e mais...
