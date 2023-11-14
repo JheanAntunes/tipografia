@@ -7,8 +7,6 @@ Por que você utilizou mais de 3 fontes??? Porque estou praticando next/font com
  - NextJs 14
 	 - Next/font
 	 - Next/Image
-	 - Componentes client e server
-	 - Página Static
  - TailwindCss
 	 -  Tailwind Merge (Resolve conflito de classes existente)
 	 - Tailwind Clsx (Classes condicionais)
