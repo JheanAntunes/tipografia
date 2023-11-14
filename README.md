@@ -26,7 +26,7 @@ Por que você utilizou mais de 3 fontes??? Porque estou praticando next/font com
 > Por que Framer ??? Porque queria experimentar os recursos interessantes como animações, hover, Inteligência artificial e mais...
 
 ### Dificuldades
- - grid-template-area na sessão de tipos de fontes, Tem um (pacote grid-template-area com tailwind)[https://www.npmjs.com/package/@savvywombat/tailwindcss-grid-areas], mas optei fazer uma class personalizada.
+ - grid-template-area na sessão de tipos de fontes, Tem um [pacote grid-template-area com tailwind](https://www.npmjs.com/package/@savvywombat/tailwindcss-grid-areas), mas optei fazer uma class personalizada.
  - Nomes para alguns componentes.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
