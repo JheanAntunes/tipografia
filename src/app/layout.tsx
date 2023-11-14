@@ -18,7 +18,7 @@ import '@/styles/globals.css'
 import type { Metadata } from 'next'
 export const metadata: Metadata = {
     title: 'Tipografia',
-    description: 'Um site baseado em um blog para praticar.',
+    description: 'Site sobre tipografia para praticar',
 }
 
 export default function RootLayout({
