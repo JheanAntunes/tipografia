@@ -17,11 +17,12 @@ function Sub_Section_Font_Sans_Serif() {
                         serifa é aquela retinha, que não tem os prolongamentos
                         característicos da fonte serifada.
                     </TypographyP>
-                    <div className="relative h-24 overflow-hidden">
+                    <div className="relative h-24 overflow-hidden rounded-xl dark:bg-slate-50">
                         <Image
                             src={ImgSans}
                             alt="imagem de exemplo de uma fonte sem-serifa"
                             fill
+                            sizes="100vw"
                             className="object-contain"
                         />
                     </div>
